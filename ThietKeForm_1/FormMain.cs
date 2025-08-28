@@ -34,5 +34,10 @@ namespace frmChinh
             frmBai3.frmBai3 f = new frmBai3.frmBai3();
             f.ShowDialog();
         }
+        private void bài4ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmBai4.frmBai4 f = new frmBai4.frmBai4();
+            f.ShowDialog();
+        }
     }
     }

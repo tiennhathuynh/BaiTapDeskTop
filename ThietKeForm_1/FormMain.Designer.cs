@@ -34,6 +34,7 @@
             this.bài1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bài2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bài3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bai4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,10 +54,11 @@
             this.hỌTênSinhViênToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bài1ToolStripMenuItem,
             this.bài2ToolStripMenuItem,
-            this.bài3ToolStripMenuItem});
+            this.bài3ToolStripMenuItem,
+            this.bai4ToolStripMenuItem});
             this.hỌTênSinhViênToolStripMenuItem.Name = "hỌTênSinhViênToolStripMenuItem";
-            this.hỌTênSinhViênToolStripMenuItem.Size = new System.Drawing.Size(135, 24);
-            this.hỌTênSinhViênToolStripMenuItem.Text = "Họ Tên Sinh Viên";
+            this.hỌTênSinhViênToolStripMenuItem.Size = new System.Drawing.Size(238, 24);
+            this.hỌTênSinhViênToolStripMenuItem.Text = "2312771_NguyenHuynhNhatTien";
             // 
             // bài1ToolStripMenuItem
             // 
@@ -82,6 +84,13 @@
             this.bài3ToolStripMenuItem.Text = "Bài 3";
             this.bài3ToolStripMenuItem.Click += new System.EventHandler(this.bài3ToolStripMenuItem_Click);
             // 
+            // bai4ToolStripMenuItem
+            // 
+            this.bai4ToolStripMenuItem.Name = "bai4ToolStripMenuItem";
+            this.bai4ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.bai4ToolStripMenuItem.Text = "Bai 4";
+            this.bai4ToolStripMenuItem.Click += new System.EventHandler(this.bài4ToolStripMenuItem_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -104,6 +113,7 @@
         private System.Windows.Forms.ToolStripMenuItem bài1ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bài2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bài3ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bai4ToolStripMenuItem;
     }
 }
 
