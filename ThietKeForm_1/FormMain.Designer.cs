@@ -72,6 +72,7 @@
             this.bài2ToolStripMenuItem.Name = "bài2ToolStripMenuItem";
             this.bài2ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.bài2ToolStripMenuItem.Text = "Bài 2";
+            this.bài2ToolStripMenuItem.Click += new System.EventHandler(this.bài2ToolStripMenuItem_Click);
             // 
             // bài3ToolStripMenuItem
             // 
@@ -79,6 +80,7 @@
             this.bài3ToolStripMenuItem.Name = "bài3ToolStripMenuItem";
             this.bài3ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.bài3ToolStripMenuItem.Text = "Bài 3";
+            this.bài3ToolStripMenuItem.Click += new System.EventHandler(this.bài3ToolStripMenuItem_Click);
             // 
             // FormMain
             // 
